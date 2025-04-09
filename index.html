@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta charset="UTF-8" />
+        <title>Bytephomet – Dark code, cursed pixels, and strange ideas</title>
+        <meta
+            name="description"
+            content="Hobby Game Dev | Passionate about Lua and Pico-8 | Lover of all things Retro Games"
+        />
+        <link rel="stylesheet" href="styles.css" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Bytephomet" />
+        <meta
+            property="og:description"
+            content="Dark code, cursed pixels, and strange ideas."
+        />
+        <meta
+            property="og:image"
+            content="http://www.bytephomet.space/assets/bytephomet_ambient_01.png"
+        />
+        <!-- Cambia este link -->
+        <meta property="og:url" content="http://www.bytephomet.space/" />
+
+        <!-- Twitter / Bluesky -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Bytephomet" />
+        <meta
+            name="twitter:description"
+            content="Dark code, cursed pixels, and strange ideas."
+        />
+        <meta
+            name="twitter:image"
+            content="http://www.bytephomet.space/assets/bytephomet_ambient_01.png"
+        />
+        <!-- Cambia este link -->
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/assets/favicon.png" />
+    </head>
+    <body>
+        <!-- NAVIGATION -->
+        <nav>
+            <div class="container navbar">
+                <div class="brand">
+                    <a href="/">Bytephomet</a>
+                </div>
+                <div class="social">
+                    <a
+                        href="https://bsky.app/profile/bytephomet.bsky.social"
+                        target="_blank"
+                        class="bsky"
+                    >
+                        <img src="/assets/bsky-icon.svg" alt="bluesky" />
+                    </a>
+                    <a
+                        href="https://bytephomet.itch.io/"
+                        target="_blank"
+                        class="itchio"
+                    >
+                        <img src="/assets/itch.io-icon.svg" alt="itch.io" />
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HERO SECTION -->
+        <header>
+            <div class="container">
+                <div class="content">
+                    <h1>
+                        A collection of <br />my experiments in game development
+                    </h1>
+                </div>
+            </div>
+        </header>
+
+        <!-- SECTION GAMES -->
+        <section>
+            <div class="container">
+                <div class="cta">
+                    Click any to play
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24px"
+                        viewBox="0 -960 960 960"
+                        width="24px"
+                        fill="#242424"
+                    >
+                        <path
+                            d="M440-800v487L216-537l-56 57 320 320 320-320-56-57-224 224v-487h-80Z"
+                        />
+                    </svg>
+                </div>
+                <div class="game-grid">
+                    <!-- card #01 -->
+                    <a
+                        href="/games/killem-all/"
+                        class="game-card-link"
+                        target="_blank"
+                    >
+                        <div class="game-card">
+                            <img
+                                src="/assets/killem-all.gif"
+                                alt="Kill'em all game"
+                            />
+                            <div class="game-card-content">
+                                <div class="game-name">Kill'em all</div>
+                                <div class="game-engine">Pico-8</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- card #02 -->
+                    <a
+                        href="/games/ritual/"
+                        class="game-card-link"
+                        target="_blank"
+                    >
+                        <div class="game-card">
+                            <img src="/assets/ritual_1.gif" alt="Ritual game" />
+                            <div class="game-card-content">
+                                <div class="game-name">Ritual</div>
+                                <div class="game-engine">Pico-8</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- card #03 -->
+                    <a href="#" class="game-card-link">
+                        <div class="game-card">
+                            <img src="/assets/return_0.gif" alt="Return game" />
+                            <div class="game-card-content">
+                                <div class="game-name">
+                                    Return
+                                    <small class="gray">(in development)</small>
+                                </div>
+                                <div class="game-engine">Pico-8</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <small
+                    >© <span id="year"></span> Bytephomet. All rights
+                    reserved.</small
+                >
+            </div>
+        </footer>
+
+        <!-- SCRIPTS -->
+        <script src="scripts.js"></script>
+    </body>
+</html>
